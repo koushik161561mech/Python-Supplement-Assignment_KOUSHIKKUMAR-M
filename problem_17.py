@@ -3,10 +3,10 @@
 
 def capitalize_words(text):
     words = text.split()
-    capitalized = []
+    capitalize = []
     for word in words:
-        capitalized.append(word.capitalize())
-    return " ".join(capitalized)
+        capitalize.append(word.capitalize())
+    return " ".join(capitalize)
 
 sentence = "hello world from python"
 print(capitalize_words(sentence))
